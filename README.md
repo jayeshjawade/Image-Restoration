@@ -1,20 +1,4 @@
 # Exposure:<br>A White-Box Photo Post-Processing Framework
-#### ACM Transactions on Graphics (presented at SIGGRAPH 2018)
-[Yuanming Hu](http://taichi.graphics/me/)<sup>1,2</sup>, [Hao He](https://github.com/hehaodele)<sup>1,2</sup>, Chenxi Xu<sup>1,3</sup>, [Baoyuan Wang](https://sites.google.com/site/zjuwby/)<sup>1</sup>, [Stephen Lin](https://www.microsoft.com/en-us/research/people/stevelin/)<sup>1</sup>
-
-#### [[Paper](https://arxiv.org/abs/1709.09602)] [[PDF Slides](https://github.com/yuanming-hu/exposure/releases/download/slides/exposure-slides.pdf)] [[PDF Slides with notes](https://github.com/yuanming-hu/exposure/releases/download/slides/exposure-slides-with-notes.pdf)] [[SIGGRAPH 2018 Fast Forward](https://www.youtube.com/watch?v=JdTkKhm0LVU)]
-
-<sup>1</sup>Microsoft Research <sup>2</sup>MIT CSAIL <sup>3</sup>Peking University
-
-**Change log:**
- - July 9, 2018: Minor improvements. 
- - May 20, 2018: Inlcuded user study UI. 
- - May 13, 2018: Minor improvements. 
- - March 30, 2018: Added instructions for preparing training data with Adobe Lightroom.
- - March 26, 2018: Updated MIT-Adobe FiveK data set and treatments for 8-bit `jpg` and `png` images.
- - March 9, 2018: Finished code clean-up. Uploaded code and some instructions.
- - March 1, 2018: Added some images. 
-
 <img src="web/images/teaser.jpg">
 
 <img src="web/images/steps.gif" width="900">
@@ -113,23 +97,3 @@ Note that perfectly reproducing what you see on the display is hardly possible, 
 
 We developed a [photo-editing UI](https://github.com/yuanming-hu/exposure/tree/master/user_study_ui) to let humans play the same game as our RL agent, and recorded [a video tutorial](https://www.youtube.com/watch?v=DwDRgHVZIXw&feature=youtu.be) to teach our volunteers how to use it.
 <img src="web/images/ui.jpg" width="800">
-
-# Bibtex
-```
-@article{hu2018exposure,
-  title={Exposure: A White-Box Photo Post-Processing Framework},
-  author={Hu, Yuanming and He, Hao and Xu, Chenxi and Wang, Baoyuan and Lin, Stephen},
-  journal={ACM Transactions on Graphics (TOG)},
-  volume={37},
-  number={2},
-  pages={26},
-  year={2018},
-  publisher={ACM}
-}
-```
-
-# Related Research Projects and Implementations 
- - [Pix2pix and CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
- - [WGAN-tensorflow](https://github.com/Zardinality/WGAN-tensorflow)
- - [HDR Net](https://github.com/mgharbi/hdrnet)
- - ...
